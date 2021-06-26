@@ -4,9 +4,89 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
         <title>Good vibes form</title>
 </head>
 <body>
-        
+        <div class="heading">
+                <h1>Good vibes form</h1>
+        </div>
+
+        <div>
+                
+                
+                <form class="my-form" action="">
+                        <h3 id="subtitle">Tell us something positive that happened to you today.</h1>
+                        <table>
+                                <tr class="row">
+                                        <td class="first">Name</td>
+                                        <td><input type="text" placeholder="Enter your name"></td>
+                                </tr>
+
+                                <tr class="row">
+                                        <td class="first">Email</td>
+                                        <td><input type="email" placeholder="Enter your email"></td>
+                                </tr>
+
+                                <tr class="row">
+                                        <td class="first">On a scale of 1-10, how good was it?</td>
+                                        <td><input type="number" placeholder="Enter a number between 1 and 10"></td>
+                                </tr>
+
+                                <tr class="row">
+                                        <td class="first">Where did it happen ?</td>
+                                        <td>
+                                                <select name="" id="">
+                                                        <option value="">At home</option>
+                                                        <option value="">On my commute</option>
+                                                        <option value="">At work</option>
+                                                        <option value="">On the street</option>
+                                                        <option value="">Other</option>
+                                                </select>
+                                        </td>
+                                </tr>
+
+                                <tr class="row">
+                                        <td class="first">At what time of day did it happen?</td>
+                                        <td>
+                                                <input type="radio" name="" id="">Morning <br>
+                                                <input type="radio" name="" id="">Afternoon<br>
+                                                <input type="radio" name="" id="">Evening
+                                        </td>
+                                </tr>
+
+
+                                
+                                <tr class="row">
+                                        <td class="first">What emotions did you experience?
+                                                (Select all that apply)</td>
+                                        <td>
+                                                <input type="checkbox" name="" id="">Excited <br>
+                                                <input type="checkbox" name="" id="">Humbled<br>
+                                                <input type="checkbox" name="" id="">Elated <br>
+                                                <input type="checkbox" name="" id="">Loved <br>
+                                                <input type="checkbox" name="" id="">Enthusiastic
+                                        </td>
+                                </tr>
+
+
+                                <tr class="row">
+                                        <td class="first">Please describe your positive experience.</td>
+                                        <td><textarea name="" id="" cols="40" rows="6" placeholder="Enter your response here"></textarea></td>
+                                </tr>
+                                
+                        </table>
+
+                        <button class="btn" type="submit">Submit</button>
+                        
+                        
+                </form>
+        </div>
 </body>
 </html>
